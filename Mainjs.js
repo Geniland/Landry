@@ -45,3 +45,11 @@ $(document).ready(function () {
         $('#myCard').hover(updateCardOnHover, resetCardOnLeave);
     });
 
+    $(document).ready(function () {
+        var burgerIcon = $('#burger-icon');
+        var menu = $('#menu');
+
+        burgerIcon.click(function () {
+            menu.slideToggle();
+        });
+    });
