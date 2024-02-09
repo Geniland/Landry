@@ -1,0 +1,68 @@
+/* Ajoutez ici votre style personnalisé */
+
+body {
+    padding-top: 0px; /* Ajustez selon vos besoins */
+}
+
+header {
+    background-color: #ffffffd2; /* Couleur de fond de l'entête */
+    background-attachment: fixed;
+
+}
+
+img {
+    max-width: 100%; /* Pour que les images soient responsives */
+}
+
+.faure{
+    align-items: center;
+   
+}
+
+.carousel-inner.carousel-fade .carousel-item {
+    transition: opacity 1s ease-in-out;  /* Ajustez la valeur '1s' selon votre préférence */
+    
+}
+
+/* .carousel-inner .carousel-item {
+    transition: transform 1s ease-in-out;  /* Ajustez la valeur '2.5s' selon votre préférence */
+
+
+  /* Définition de l'animation shake */
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px) rotate(0deg); }
+    50% { transform: translateX(5px) rotate(0deg); }
+    75% { transform: translateX(-5px) rotate(0deg); }
+    100% { transform: translateX(5px) rotate(0deg); }
+}
+
+/* Appliquer l'animation par défaut, sans hover */
+.animated-btn {
+    transition: transform 0.3s ease;
+}
+
+/* Appliquer l'animation au survol */
+.animated-btn:hover {
+    animation: shake 3s ease-in-out infinite;
+}
+
+#actualite{
+    
+    background-color: rgba(224, 224, 219, 0.824);
+    
+}
+
+#body{
+    background-image: url(".jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    color: rgb(62, 169, 245);
+}
+
+
